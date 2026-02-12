@@ -4,7 +4,7 @@ A Python utility that analyzes a password’s strength using regex-based criteri
 
 ---
 
-## 🔍 Features
+##  Features
 - Evaluates password length, character diversity (uppercase, lowercase, digits, symbols) and other patterns to assess strength.  
 - Gives a numeric score (0-100) plus a qualitative grade (Weak/Moderate/Strong).  
 - Simple CLI (command-line) interface to quickly test passwords.  
@@ -13,7 +13,7 @@ A Python utility that analyzes a password’s strength using regex-based criteri
 
 ---
 
-## 🧰 Getting Started
+##  Getting Started
 ### Prerequisites
 - Python 3.x installed on your system.  
 - (Optional) A virtual environment recommended for isolating dependencies.
@@ -32,7 +32,7 @@ pip install -r requirements.txt  # if you have any dependencies listed
 You will be prompted to enter a password, after which you’ll receive a score and classification.
 You can also import the module into your own script if you want to integrate its functionality.
 
-🎯 How It Works
+ How It Works
 
 Checks minimum and maximum length criteria.
 
@@ -58,13 +58,13 @@ Moderate (41-70)
 
 Strong (71-100)
 
-✅ Example
+ Example
 ```yaml
 Enter a password: MyP@ssw0rd123  
 Score: 78  
 Classification: Strong  
 ```
-📝 Why Use This Tool?
+ Why Use This Tool?
 
 Quickly gauge how secure a password is from a diversity standpoint.
 
@@ -86,7 +86,7 @@ Provide batch-mode support (test many passwords at once).
 
 Log or export results for audit/tracking purposes.
 
-📂 Project Structure
+ Project Structure
 ```
 Password-Strength-Tester/
    ├── password_strength_tester.py     # Main script / module
@@ -94,17 +94,17 @@ Password-Strength-Tester/
    ├── (optional) requirements.txt      # External dependencies
    └── (optional) tests/                # Unit tests you might add
 ```
-📄 License
+ License
 
 Choose an appropriate open-source license (e.g., MIT, Apache 2.0) and include a LICENSE file if you want to allow others to reuse the code.
 
-🙋 Contributions & Feedback
+ Contributions & Feedback
 
 Feel free to submit pull requests, raise issues or suggest improvements. Any enhancements for usability, security checks or documentation are very welcome!
 
-📬 Contact
+ Contact
 
 If you have questions, ideas or want to collaborate further — get in touch via your GitHub profile or open an issue on the repository.
 
 Enjoy using Password-Strength-Tester!
-Happy coding & stay secure 💪
+Happy coding & stay secure 
